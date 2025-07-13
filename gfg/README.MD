@@ -1,6 +1,6 @@
 # Leaders in an array
 # optimal
-```
+```java
 class Solution {
     static ArrayList<Integer> leaders(int arr[]) {
         ArrayList<Integer>arrl=new ArrayList<>();
@@ -20,7 +20,7 @@ class Solution {
 
 ```
 # Brutforce
-```
+```java
 class Solution {
     static ArrayList<Integer> leaders(int arr[]) {
         ArrayList<Integer>arrl=new ArrayList<>();
