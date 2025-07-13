@@ -84,3 +84,23 @@ class Solution {
     }
 }
 ```
+# Remove Duplicates
+```java
+class Solution {
+    // Function to remove duplicates from the given array
+    public int removeDuplicates(int[] arr) {
+        // Code Here
+       LinkedHashSet<Integer>lh=new LinkedHashSet<>();
+       for(int a:arr){
+           lh.add(a);
+       }
+       int i = 0;
+        for (int val : lh) {
+            arr[i++] = val; // modify original array
+        }
+
+        return lh.size();
+    }
+}
+//Note dont forget to change the orginal array
+```
