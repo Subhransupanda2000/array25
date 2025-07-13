@@ -65,3 +65,22 @@ class Solution {
     }
 }
 ```
+# isSorted array
+```java
+class Solution {
+    public boolean isSorted(int[] arr) {
+        int max=arr[0];
+        boolean flag=false;
+        for(int i=0;i<arr.length;i++){
+         if(arr[i]>=max){
+             max=arr[i];
+             flag =true;
+         }else{
+             return false;
+         }
+     }
+     return true;
+        
+    }
+}
+```
